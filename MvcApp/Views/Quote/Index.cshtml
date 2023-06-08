@@ -1,0 +1,33 @@
+@model List<GetQuoteDto>
+    <a class=" m-3 btn btn-primary" href="/quote/create" role="bullon">New Quote</a>
+    <hr class = "hr hr-blurry"/>
+
+<h1 class="text-center">The List of Quotes</h1>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Author</th>
+      <th scope="col">Quote Text</th>
+      <th scope="col">Category Id</th>
+      <th scope="col">File Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var quote in Model)
+{
+    <tr>
+      <th scope="row">@quote.Id</th>
+      <td>@quote.Author</td>
+      <td>@quote.QuoteText</td>
+      <td>@quote.CategoryId</td>
+      <td><img style="border:1px solid;
+                    border-radius:50px;
+                    width:50px;
+                    height:50px;" src="~/images/@quote.FileName"></td>
+       <td><a href="/quote/Update/@quote.Id">Edit</a></td>
+
+    </tr>
+}
+  </tbody>
+</table>

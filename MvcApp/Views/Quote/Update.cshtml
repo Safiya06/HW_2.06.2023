@@ -1,0 +1,45 @@
+@model AddQuoteDto
+<form method="post" enctype="multipart/form-data" class="row g-3 needs-validation" novalidate>
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+        <input asp-for="Id" type="number" hidden="hidden">
+      <label for="validationCustom01">Id</label>
+      <input type="text" class="form-control" id="validationCustom01" placeholder="Id" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom02">Author </label>
+      <input type="text" asp-for="Author" class="form-control" id="validationCustom02" placeholder="Author  "  required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustomUsername">Quote Text</label>
+      @* <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroupPrepend"></span>
+        </div> *@
+        <input type="text" asp-for="QuoteText" class="form-control" id="validationCustomUsername" placeholder="Quote Text" aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+          Please choose a username.
+        </div>
+      </div>
+    </div>
+ 
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom03">Category Id</label>
+      <input type="text" asp-for="CategoryId" class="form-control" id="validationCustom03" placeholder="Category Id" required>
+    </div>
+    </div>
+      <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom03">FileName</label>
+      <input type="file" asp-for="File" class="form-control" id="validationCustom03" placeholder="FileName " required>
+    </div>
+    </div>
+  <button class="btn btn-primary" type="submit">Submit form</button>
+</form>

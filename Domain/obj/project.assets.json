@@ -158,11 +158,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\Desktop\\Practice FileUpload 2.06.2023\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Desktop\\C#-course\\Practice FileUpload 2.06.2023\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\admin\\Desktop\\Practice FileUpload 2.06.2023\\Domain\\Domain.csproj",
+      "projectPath": "C:\\Users\\admin\\Desktop\\C#-course\\Practice FileUpload 2.06.2023\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\Desktop\\Practice FileUpload 2.06.2023\\Domain\\obj\\",
+      "outputPath": "C:\\Users\\admin\\Desktop\\C#-course\\Practice FileUpload 2.06.2023\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -210,6 +210,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

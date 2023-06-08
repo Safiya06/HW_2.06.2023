@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tt7nml2//YUCRu0DWratqBefed0zCwUZ7muK1DZj7mjDOMMpgpzpV2FG/rw19+AECYGzeAkC4QOw3CYB97FNZQ==",
+  "dgSpecHash": "lhgOwFhmvmUovG5hQrQ7o2AsqnEJJYahnZ7HWO1BLqjdIWEt263VF+93R4BkrzRlCAVIsNxq4UpTAclKSmqyfQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Desktop\\Practice FileUpload 2.06.2023\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\admin\\Desktop\\C#-course\\Practice FileUpload 2.06.2023\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
